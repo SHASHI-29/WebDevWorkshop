@@ -1,146 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Bandari Shasheendra | Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            color: #333;
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .header img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 3px solid #2c3e50;
+            margin-bottom: 10px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        ul {
+            margin-left: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #2c3e50;
+            color: white;
+        }
+        .project {
+            margin-bottom: 15px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            color: #666;
+            font-size: 0.9em;
+        }
+    </style>
 </head>
-<style>
-    body{
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 20px;
-        background: #f8f9fa;
-        color: #2d3436;
-        line-height: 1.6;
-    }
-    h1,h2{
-        color: #6c5ce7;
-    }
-    img{
-        border-radius: 50%;
-        border: 4px solid #6c5ce7;
-        width: 100px;
-        height: 100px;
-    }
-    img:hover{
-        transform: scale(1.05);
-    }
-    .highlight{
-        color: #6c5ce7;
-    }
-    .skill-list,ul{
-        list-style: none;
-        padding: 0;
-    }
-    .skill-list li{
-        display: flex;
-        margin: 5px;
-        border-radius: 15px;
-    }
-    table {
-        text-align: center;
-        width: 100%;
-        border-collapse: collapse;
-        margin: 20px 0;
-    }
-    th,td{
-        text-align: center;
-        padding: 10px;
-
-        border: 1px solid #ddd;
-    }
-    th{
-        background: #6c5ce7;
-        color: #fff;
-    }
-    .project-item{
-        margin: 10px 0;
-        padding: 10px;
-        background: #fff;
-        border-radius: 5px;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
-    .contact-info{
-        text-align: center;
-        margin: 20px 0;
-        padding: 15px;
-        background: #fff;
-        border-radius: 5px;
-    }
-    hr{
-        border: none;
-        height: 2px;
-        background: linear-gradient(to right, #6c5ce7,#a29bfe);
-    }
-    .center.p{
-        margin-top: 30px;
-    }
-</style>
 <body>
-    <div style="text-align: center;">
-        <img class="Image" src="./Shashi.jpg" alt="Image">
-        <h1>Shasheendra Bandari</h1>
-        <p>Web Developer</p>
+
+    <div class="header">
+        <img src="Shashi.jpg" alt="Profile Photo"/>
+        <h1>Bandari Shasheendra</h1>
+        <p>B.Tech Electronics & Instrumentation</p>
+        <p>
+            📧 <a href="mailto:bandarishasheendra2508@gmail.com">bandarishasheendra2508@gmail.com</a> |
+            📞 +91-9182181063
+        </p>
+        <p>
+            <p>
+    <a href="https://github.com/SHASHI-29" target="_blank">GitHub</a> |
+    <a href="https://linkedin.com/in/bandari-shasheendra-14306b268/" target="_blank">LinkedIn</a>
+</p>
+
+        </p>
     </div>
 
-    <hr>
+    <section>
+        <h2>About Me</h2>
+        <p>
+            I am a passionate Electronics and Instrumentation Engineering student at VNRVJIET. My interests include embedded systems,
+            control theory, PLC automation, and AI-powered systems. I have practical experience with STM32, MATLAB, Streamlit, and industrial tools like
+            Siemens TIA Portal.
+        </p>
+    </section>
 
-    <h2>About me</h2>
-    <p>I am Frontend Developer </p>
+    <section>
+        <h2>Education</h2>
+        <table>
+            <tr>
+                <th>Qualification</th>
+                <th>Institute</th>
+                <th>Duration</th>
+                <th>Marks/CGPA</th>
+            </tr>
+            <tr>
+                <td>B.Tech (EIE)</td>
+                <td>VNRVJIET</td>
+                <td>2022–2026</td>
+                <td>CGPA: 8.88</td>
+            </tr>
+            <tr>
+                <td>Intermediate (MPC)</td>
+                <td>SR Junior College</td>
+                <td>2020–2022</td>
+                <td>Percentage: 98.1%</td>
+            </tr>
+            <tr>
+                <td>SSC</td>
+                <td>SR National High School</td>
+                <td>2019–2020</td>
+                <td>CGPA: 10.0</td>
+            </tr>
+        </table>
+    </section>
 
-    <h2>My Skills</h2>
-    <ul class = "skill-list">
-        <li>HTML5</li>
-        <li>CSS3</li>
-        <li>JavaScript</li>
-        <li>React</li>
-    </ul>
+    <section>
+        <h2>Internships</h2>
+        <div class="project">
+            <strong>IIT Hyderabad – Control Systems Intern</strong> (June 2025)<br/>
+            Simulated unstable systems in MATLAB and tuned PID controllers using PSO & IMC.
+        </div>
+        <div class="project">
+            <strong>Swan Environmental Pvt. Ltd. – Instrumentation Intern</strong> (May 2024)<br/>
+            Designed emission monitoring systems with 98% pollutant detection using laser calibration.
+        </div>
+    </section>
 
-    <h2>Education</h2>
-    <table>
-        <tr>
-            <th>Qualification</th>
-            <th>Institute</th>
-            <th>Years</th>
-            <th>Marks/CGPA</th>
+    <section>
+        <h2>Academic Projects</h2>
+        <div class="project">
+            <strong>Streamlit Expense Manager</strong>  
+            – Python-based tool to manage and visualize personal expenses.
+        </div>
+        <div class="project">
+            <strong>Three-Way Traffic Light Using HMI</strong>  
+            – Siemens PLC + HMI control using TIA Portal and Ladder Logic.
+        </div>
+        <div class="project">
+            <strong>Mobile Sales Analytics Dashboard</strong>  
+            – Visualized sales data using R and Excel charts.
+        </div>
+        <div class="project">
+            <strong>Student Performance Analysis</strong>  
+            – Machine learning model using Python and scikit-learn.
+        </div>
+        <div class="project">
+            <strong>Plant Irrigation Robot</strong>  
+            – Arduino-based system to automate plant watering.
+        </div>
+        <div class="project">
+            <strong>Home Automation System</strong>  
+            – IoT solution using Arduino UNO and ESP-01 WiFi module.
+        </div>
+    </section>
 
-        </tr>
-        <tr>
-            <td> <span class = "highlight">B.tech(EIE)</span> </td>
-            <td>VNRVJIET</td>
-            <td>2022-2026</td>
-            <td>8.95</td>
-        </tr>
-        <tr>
-            <td><span class = "highlight"> Intermediate</span></td>
-            <td>SR Junior College</td>
-            <td>2020-2022</td>
-            <td>981</td>
-        </tr>
-        <tr>
-            <td><span class = "highlight"> SSC</span></td>
-            <td>SR National High School</td>
-            <td>2019-2020</td>
-            <td>10.0</td>
-        </tr>
-    </table>
+    <section>
+        <h2>Technical Skills</h2>
+        <ul>
+            <li><strong>Programming:</strong> C, C++, Python, R, MATLAB, SQL, Assembly (ARM/x86)</li>
+            <li><strong>Web:</strong> HTML, CSS, JavaScript, React, Streamlit</li>
+            <li><strong>Tools:</strong> TIA Portal, Arduino IDE, LabVIEW, NI MULTISIM, AutoCAD</li>
+            <li><strong>Microcontrollers:</strong> STM32 (Cortex-M4), Arduino UNO</li>
+            <li><strong>Automation:</strong> PLC (Siemens S7-1200), HMI, SCADA</li>
+            <li><strong>Libraries:</strong> Pandas, NumPy, Matplotlib, scikit-learn</li>
+        </ul>
+    </section>
 
-    <h2>Projects</h2>
-    <div class="project-item">
-        <b>Portfolio Website</b>
-        <p>This website you are currently viewing</p>
-    </div>
+    <section>
+        <h2>Achievements & Certifications</h2>
+        <ul>
+            <li>Placement Coordinator – Department of EIE, VNRVJIET</li>
+            <li>Member – ISOI Student Chapter</li>
+            <li>Volunteered – TCS Placement Drive 2024</li>
+            <li>Project Showcase – Open House, VNRVJIET 2024</li>
+            <li>Frontend Development Bootcamp – HTML & CSS (2024)</li>
+            <li>Certification – Cyber Security & Network Security (2024)</li>
+            <li>Certification – Microsoft Office (Word, Excel, PowerPoint – 2022)</li>
+        </ul>
+    </section>
 
-    <h2>Contact Information</h2>
-    <div class="contact-info">
-        <p>Email: bandarishasheendra2508@gmail.com</p>
-        <p>Phone: 9182181063</p>
-    </div>
+    <footer>
+        &copy; 2024 Bandari Shasheendra. All Rights Reserved.
+    </footer>
 
-    <div class="center">
-        <p> 2024 Shasheendra Bandari. All rights reserved.</p>
-    </div>
 </body>
 </html>
