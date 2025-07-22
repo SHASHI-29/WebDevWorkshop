@@ -9,7 +9,7 @@ I am Bandari Shasheendra, a B.Tech Electronics and Instrumentation Engineering s
 
 ### 🔗 Live Website
 
-🌍 [Visit My Portfolio](https://shashi-29.github.io/WebDevWorkshop/)
+🌍 
 
 ---
 
